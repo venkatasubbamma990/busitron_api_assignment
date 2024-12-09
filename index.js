@@ -28,4 +28,4 @@ const connectDB = async () => {
   };
   
   connectDB();
-app.listen(port, () => console.log(`App listening on port https://localhost:${port}`))
+app.listen(port, () => console.log(`App listening on port http://localhost:${port}`))
